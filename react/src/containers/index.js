@@ -1,0 +1,6 @@
+export { default as Header} from './header/Header'
+export {default as Footer} from './footer/Footer'
+export {default as WhatJsFramework} from './WhatJsFramework/WhatJsFramework'
+export {default as AboutReact} from './AboutReact/AboutReact'
+export {default as AboutAngular} from './AboutAngular/AboutAngular'
+export {default as AboutVueJS} from './AboutVueJS/AboutVueJS'

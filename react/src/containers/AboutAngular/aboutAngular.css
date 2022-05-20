@@ -1,0 +1,53 @@
+.about_angular{
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: var(--color-footer);
+    
+}
+.about_angular-heading{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.about_angular-heading h1{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    color: #B52E31;
+}
+
+.about_angular-container{
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 990px) {
+    .about_angular {
+        flex-direction: column;
+    }
+
+    .about_angular-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .about_angular-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
