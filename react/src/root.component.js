@@ -1,27 +1,16 @@
 import React from 'react'
-import { Navbar, Article, Brand, Type } from './components'
-import {
-  Footer,
-  Header,
-  WhatJsFramework,
-  AboutReact,
-  AboutAngular,
-  AboutVueJS,
-} from './containers'
+import { Header, AboutMe, Education, Experince, Projects } from "./components" 
+
+
 
 const Root = () => {
   return (
-    <div className="Root">
-      <div className="navbar_bg">
-        <Navbar />
+    <div className="Root">   
         <Header />
-      </div>
-      <WhatJsFramework />
-      <AboutReact />
-      <AboutAngular />
-      <AboutVueJS />
-
-      <Footer />
+        <AboutMe />
+        <Education />
+        <Experince />
+        <Projects />
     </div>
   )
 }

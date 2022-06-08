@@ -1,0 +1,52 @@
+.headerTextProjects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 20px;
+}
+
+
+.sectionContent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 70px;
+    text-align: center;
+    
+}
+
+.projectComponent {
+    border: 1px solid whitesmoke;
+    border-radius: 2rem;
+    padding: 4px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    background-color: #0f172a;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.662);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.name,
+.technologies,
+.description {
+    color: rgb(233, 232, 232);
+    padding: 5px;
+    text-align: center;
+}
+
+.projectComponent:hover {
+    
+    transform: scale(1.05);
+    
+}
+
+@media (min-width: 650px) {
+    
+    .sectionContent {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+

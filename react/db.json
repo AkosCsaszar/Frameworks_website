@@ -1,0 +1,96 @@
+{
+  "aboutmeData": [
+    {
+      "id": 0,
+      "text": "I am a yunior developer whit  who just finished the university I am a yunior developer whit  who just finished the university I am a yunior developer whit  who just finished the university"
+    },
+    {
+      "id": 1,
+      "text": "I am a yunior developer whit  who just finished the university I am a yunior developer whit  who just finished the university"
+    },
+    {
+      "id": 2,
+      "text": "I am a yunior developer whit  who just finished the university I am a yunior developer whit  who just finished the university I am a yunior developer whit  who just finished the university"
+    },
+    {
+      "id": 3,
+      "text": "I am a yunior developer whit  who just finished the university"
+    }
+  ],
+
+  "education": [
+    {
+      "id": 0,
+      "schoolName": "Sapientia Erdélyi Magyar Tudományegyetem",
+      "city": "Marosvásárhely",
+      "time": "2019 - present"
+    },
+    {
+      "id": 1,
+      "schoolName": "Márton Áron Főgimnázium",
+      "city": "Csíkszereda",
+      "time": "2015 - 2019"
+    },
+    {
+      "id": 2,
+      "schoolName": "Nagy Imre Általános iskola",
+      "city": "Marosvásárhely",
+      "time": "2007 - 2015"
+    }
+  ],
+
+  "experience": [
+    {
+      "id": 0,
+      "company": "Accenture Industry",
+      "type": "EMBEDEED",
+      "description": "Benchmark application for Android Automotive deviceses",
+      "date": "jun 2021 - aug 2021" 
+    },
+
+    {
+      "id": 1,
+      "company": "Netglob System SRL",
+      "type": "FULLSTACK",
+      "description": "WPF application for billing managment in C# and SQL",
+      "date": "jun 2021 - aug 2021" 
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 0,
+      "name": "Bazaar",
+      "technologies": "Android",
+      "description": "Marketplace application with login register(with token) forgot password, list, add, delete, search, items and also with item details."
+      
+    },
+
+    {
+      "id": 1,
+      "name": "Beerify",
+      "technologies": "Flutter",
+      "description": "Beer storage with image recognation softvare which check if the beer is in the storage or not, if not add it"
+    },
+
+    {
+      "id": 2,
+      "name": "Runtime-Terror",
+      "technologies": "Angular, C#",
+      "description": "Moovie rater website/app where the users can rate search movies or series and make a watchlist with the favorite movies or series"
+
+    },
+
+    {
+      "id": 3,
+      "name": "ChatClient",
+      "technologies": "C++",
+      "description": "TCP Client with TCP server where clients can chat with all clients or just in private with one client and also can send files to clients"
+    }
+  ]
+
+
+
+
+  
+}

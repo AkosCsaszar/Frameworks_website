@@ -1,3 +1,6 @@
-export { default as Navbar } from './navbar/Navbar'
-export { default as Brand } from './brand/Brand'
-export { default as Feature } from './feature/Feature'
+export { default as Header } from './Header/Header'
+export { default as AboutMe } from './About/AboutMe'
+export { default as Education } from './Education/Education'
+export {default as Experince} from './Experince/Experince'
+export {default as Projects} from './Projects/Projects'
+
