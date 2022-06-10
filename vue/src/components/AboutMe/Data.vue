@@ -1,13 +1,13 @@
 <template>
-    <div>Szia Lajos</div>
+    <p>{{ data.text }}</p>
 </template>
 
 
 <script>
 export default {
-    name: 'Tasks',
+    name: 'Data',
     props: {
-        tasks: Array,
+        data: Object
     }
 }
 </script>

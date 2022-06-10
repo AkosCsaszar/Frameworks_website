@@ -18,7 +18,7 @@ const Projects = () => {
       }, [])
 
     const fetchAboutData = async () => {
-        const res = await fetch('http://localhost:5004/projects')
+        const res = await fetch('http://localhost:5001/projects')
         const data = await res.json()
         
         return(data)

@@ -17,7 +17,7 @@ const Experince = () => {
       }, [])
 
     const fetchAboutData = async () => {
-        const res = await fetch('http://localhost:5004/experience')
+        const res = await fetch('http://localhost:5001/experience')
         const data = await res.json()
         
         return(data)

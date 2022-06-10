@@ -1,30 +1,102 @@
 <template>
-  <header>
-    <h1>{{ title }}</h1>
-    <Button text="Add task" color="green" />
-  </header>
+  <header className="header">
+        <h1 className="headerText">CSÁSZÁR ÁKOS</h1>
+        <div className="navItems">
+            <a href="#about" className='anchor'>
+               <fas icon="coffee"/>
+            </a>
+            <a href='#education' className='anchor'>
+                
+            </a>
+            <a href='#projects' className='anchor'>
+               
+            </a>
+            
+        </div>
+    </header>
 </template>
 
 <script>
-import Button from './Button'
 
 export default {
   name: "Header",
-  props: {
-    title: String,
-  },
-  components: {
-    Button,
-  },
-
 };
 </script>
 
-<style scoped>
+
+<style>
+
 header {
+  background: #0c2119;
+  color: white;
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  gap: 14px;
+  user-select: none;
+}
+
+.headerText {
+  font-size: 4rem;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  letter-spacing: -0.5ch;
+  font-weight: 800;
+  text-align: center;
+  text-shadow: 0.03em 0.03em 0 rgb(0, 255, 213),
+      0.06em 0.06em 0 rgb(154, 192, 18),
+      0.09em 0.09em 0 rgb(226, 143, 87),
+      0.11em 0.11em 0 rgb(161, 24, 127);
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 4rem;
+}
+
+.icons {
+  transition-duration: 300ms;
+  cursor: pointer;
+  
+}
+
+.icons:hover {
+  color: aqua;
+  transform: scale(1.1);
+  text-shadow: 0.03em 0.03em 0 white;
+}
+
+.anchor {
+  text-decoration: inherit;
+  outline: none;
+  color: unset;
+
+}
+
+@media (min-width: 640px) {
+  .header {
+      flex-direction: column;
+  }
+
+  .headerText {
+      writing-mode: unset;
+      text-orientation: unset;
+      letter-spacing: unset;
+      font-size: 6rem;
+      letter-spacing: 4px;
+  }
+
+  .navItems {
+      flex-direction: row;
+      font-size: 5.5rem;
+      gap: 50px;
+  }
 }
 </style>
+
+
