@@ -6,7 +6,7 @@
             <div class='line'></div>
         </div>
         <div class='sectionContent'>
-            
+            <app-aboutme-item *ngFor="let data of alldata" [data]="data"></app-aboutme-item>
         </div>
     </div>
 </section>

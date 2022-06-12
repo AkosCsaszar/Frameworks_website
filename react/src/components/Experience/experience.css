@@ -23,39 +23,10 @@
 }
 
 
-.experienceComponent {
-    border: 1px solid;
-    border-radius: 2rem;
-    padding: 4px;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.25rem;
-    background-color: #0f172a;
-    box-shadow: -20px 20px 10px rgba(0,0,0,0.3);
-    transition-duration: 300ms;
-    cursor: pointer;
-}
 
-.title,
-.type,
-.description,
-.date {
-    color: white;
-}
 
-.type {
-    font-weight: 300;
-    font-size: smaller;
-}
 
-.date {
-    font-size: smaller;
-}
 
-.experienceComponent:hover {
-    transform: scale(1.05);
-    
-}
 
 
 

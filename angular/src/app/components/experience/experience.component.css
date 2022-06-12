@@ -1,0 +1,48 @@
+.headerTextExperience {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 40px 20px;
+    
+}
+
+.line {
+    height: 2px;
+    background: #2a0f0f;
+    flex: 1;
+}
+
+.wrapper {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    font-weight: 800;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1.5px #2a0f0f;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionContent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 10px;
+    text-align: center;
+}
+
+
+
+@media (min-width: 650px) {
+    .text {
+        font-size: 4rem;
+        -webkit-text-stroke: 2px #2a0f0f;
+    }
+    .sectionContent {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

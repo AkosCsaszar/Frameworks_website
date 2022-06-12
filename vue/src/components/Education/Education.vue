@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="education">
         <div class="wrapper">
                 <div class="headerTextEducation">
                     <div class="line"></div>

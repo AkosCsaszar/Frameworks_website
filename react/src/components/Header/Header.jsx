@@ -10,12 +10,15 @@ const Header = () => {
         <div className="navItems">
             <a href="#about" className='anchor'>
                 <FontAwesomeIcon icon={faUserAstronaut} className="icons"/>
+                <span>About Me</span>
             </a>
             <a href='#education' className='anchor'>
                 <FontAwesomeIcon icon={faGraduationCap} className="icons"/>
+                <span>Education</span>
             </a>
             <a href='#projects' className='anchor'>
                 <FontAwesomeIcon icon={faCubes} className="icons"/>
+                <span>Projects</span>
             </a>
             
         </div>

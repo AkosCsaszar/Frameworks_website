@@ -29,13 +29,7 @@
     cursor: pointer;
 }
 
-.name,
-.technologies,
-.description {
-    color: rgb(233, 232, 232);
-    padding: 5px;
-    text-align: center;
-}
+
 
 .projectComponent:hover {
     

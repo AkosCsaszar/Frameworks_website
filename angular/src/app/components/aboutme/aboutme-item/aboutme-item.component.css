@@ -1,0 +1,16 @@
+p {
+    border: 1px solid #2a0f0f;
+    border-radius: 2rem;
+    padding: 4px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    box-shadow: -20px 20px 10px rgba(0,0,0,0.3);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+
+p:hover {
+    transform: scale(1.05);
+}

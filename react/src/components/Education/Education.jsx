@@ -20,7 +20,7 @@ const Education = () => {
       }, [])
 
     const fetchAboutData = async () => {
-        const res = await fetch('http://localhost:5001/education')
+        const res = await fetch('http://localhost:5000/education')
         const data = await res.json()
         
         return(data)

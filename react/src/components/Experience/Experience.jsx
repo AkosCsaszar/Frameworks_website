@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import './experince.css'
-import ExperineceList from './ExperineceList'
+import './experience.css'
+import ExperienceList from './ExperienceList'
 
-const Experince = () => {
+const Experience = () => {
     const [alldata, setAllData] = useState([])    
 
     useEffect(() => {
@@ -17,7 +17,7 @@ const Experince = () => {
       }, [])
 
     const fetchAboutData = async () => {
-        const res = await fetch('http://localhost:5001/experience')
+        const res = await fetch('http://localhost:5000/experience')
         const data = await res.json()
         
         return(data)
@@ -32,11 +32,11 @@ const Experince = () => {
                 <div className='line'></div>
             </div>
             <div className='sectionContent'>
-                <ExperineceList alldata={alldata}/>
+                <ExperienceList alldata={alldata}/>
             </div>
         </div>
 
     )
 }
 
-export default Experince
+export default Experience

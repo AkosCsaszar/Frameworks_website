@@ -31,17 +31,30 @@
     font-size: 4rem;
 }
 
-.icons {
+svg {
     transition-duration: 300ms;
     cursor: pointer;
     
 }
 
-.icons:hover {
-    color: aqua;
+svg:hover {
+    color:  #B52E31;
     transform: scale(1.1);
     text-shadow: 0.03em 0.03em 0 white;
 }
+
+span {
+    text-align: center;
+    font-size: small;
+    
+}
+
+a {
+    display: grid;
+    grid-template-rows: 1fr;
+    
+}
+
 
 .anchor {
     text-decoration: inherit;

@@ -1,1 +1,12 @@
-<p>projects works!</p>
+<section id="projcet" >
+    <div class='wrapper'>
+        <div class='headerTextProjects'>
+            <div class='lineLight'></div>
+            <h1 class='textLight'>PROJECTS</h1>
+            <div class='lineLight'></div>
+        </div>
+        <div class='sectionContent'>
+            <app-project-item *ngFor="let data of alldata" [data]="data"></app-project-item>
+        </div>
+    </div>
+</section>

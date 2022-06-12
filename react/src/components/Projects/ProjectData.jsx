@@ -1,13 +1,20 @@
 import React from 'react'
-import './projects.css'
+import './projectdata.css'
 
 const ProjectData = ({data}) => {
   return (
-    <div className='projectComponent'>
+    <div className='card'>
+      <div className='cardHeader'>
         <h1 className='name'>{data.name}</h1>
-        <h2 className='technologies'>{data.technologies}</h2>
-        <p className='description'>{data.description}</p>
-    </div>
+      </div>
+      <div class="cardBody">
+        <p className='projectDescription'>{data.description}</p>
+        <p className='technologies'>{data.technologies}</p>
+      </div>
+        
+    
+  </div>
+    
   )
 }
 

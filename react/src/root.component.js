@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, AboutMe, Education, Experince, Projects } from "./components" 
+import { Header, AboutMe, Education, Experience, Projects } from "./components" 
 
 
 
@@ -9,7 +9,7 @@ const Root = () => {
         <Header />
         <AboutMe />
         <Education />
-        <Experince />
+        <Experience />
         <Projects />
     </div>
   )

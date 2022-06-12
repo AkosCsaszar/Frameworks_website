@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:single-spa:angular-cw": "ng build angular-cw --prod --deploy-url http://localhost:5005/",
-    "serve:single-spa:angular-cw": "ng s --project angular-cw --disable-host-check --port 5005 --deploy-url http://localhost:5005/ --live-reload false"
+    "serve:single-spa:angular-cw": "ng s --project angular-cw --disable-host-check --port 5005 --deploy-url http://localhost:5005/ --live-reload false",
+    "server": "json-server  --watch db.json --5000"
   },
   "private": true,
   "dependencies": {
@@ -21,9 +22,9 @@
     "@angular/platform-browser": "~11.2.9",
     "@angular/platform-browser-dynamic": "~11.2.9",
     "@angular/router": "~11.2.9",
-    "@fortawesome/angular-fontawesome": "^0.11.0",
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "angular-timeline": "^1.7.0",
+    "bower": "^1.8.14",
+    "json-server": "^0.17.0",
     "rxjs": "~6.6.0",
     "single-spa": ">=4.0.0",
     "single-spa-angular": "^4.9.2",
