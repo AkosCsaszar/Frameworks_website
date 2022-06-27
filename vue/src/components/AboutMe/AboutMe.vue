@@ -76,9 +76,7 @@ export default {
 }
 
 .sectionContent {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 20px;  
     gap: 10px;
     text-align: center;
 }
@@ -90,6 +88,7 @@ export default {
         font-size: 4rem;
         -webkit-text-stroke: 2px #0c2119;
     }
+    
     
 }
 </style>

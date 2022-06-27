@@ -22,7 +22,7 @@ export default {
 .paragraph {
     border: 1px solid #0c2119;
     border-radius: 2rem;
-    padding: 4px;
+    padding: 20px;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 2.25rem;

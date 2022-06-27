@@ -34,7 +34,8 @@ export default {
           return data
 
           
-      }
+      },
+
       
   },
   async created() {
@@ -68,8 +69,6 @@ export default {
 }
 .sectionContent {
     padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 70px;
     text-align: center;
     
@@ -90,11 +89,6 @@ export default {
     
 }
 
-@media (min-width: 650px) {
-    
-    .sectionContent {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
+
 
 </style>
